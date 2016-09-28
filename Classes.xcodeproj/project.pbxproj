@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		821C77091D9BA22A00CA57C1 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C77081D9BA22A00CA57C1 /* main.swift */; };
+		821C77101D9BA80C00CA57C1 /* Spaceship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C770F1D9BA80C00CA57C1 /* Spaceship.swift */; };
+		821C77121D9BB11900CA57C1 /* Calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 821C77111D9BB11900CA57C1 /* Calculator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		821C77051D9BA22A00CA57C1 /* Classes */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Classes; sourceTree = BUILT_PRODUCTS_DIR; };
 		821C77081D9BA22A00CA57C1 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		821C770F1D9BA80C00CA57C1 /* Spaceship.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spaceship.swift; sourceTree = "<group>"; };
+		821C77111D9BB11900CA57C1 /* Calculator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 			isa = PBXGroup;
 			children = (
 				821C77081D9BA22A00CA57C1 /* main.swift */,
+				821C770F1D9BA80C00CA57C1 /* Spaceship.swift */,
+				821C77111D9BB11900CA57C1 /* Calculator.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -120,7 +126,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				821C77101D9BA80C00CA57C1 /* Spaceship.swift in Sources */,
 				821C77091D9BA22A00CA57C1 /* main.swift in Sources */,
+				821C77121D9BB11900CA57C1 /* Calculator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
